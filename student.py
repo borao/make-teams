@@ -1,13 +1,15 @@
 class Student(object):
     name = None
+    affiliation = ""
     skill = 0
     outgoing = 0
     grade = 0
     years = -1
     power = 0
 
-    def __init__(self,name, skill, outgoing, grade, years):
+    def __init__(self,name, affiliation, skill, outgoing, grade, years):
         self.name = name
+        self.affiliation = affiliation
         self.skill = skill
         self.outgoing = outgoing
         self.grade = grade
